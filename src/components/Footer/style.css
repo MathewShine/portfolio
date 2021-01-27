@@ -1,0 +1,30 @@
+.footer {
+ width: 100%;
+ padding: 10px 0;
+ display: flex;
+ flex-grow: 1;
+ flex-direction: row;
+ position: relative;
+ bottom: 10px;
+}
+.footer .image img {
+    
+    max-width: 50px;
+    padding-left: 5px;
+}
+  @media (min-width: 800px) {
+    .footer {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    position: relative;
+    bottom: 10px;
+    }
+    .footer .image img {
+        max-width: 40px;  
+        padding-left: 5px;     
+    }
+  }
+ 
